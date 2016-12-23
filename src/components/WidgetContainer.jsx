@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WidgetText from './Widget/WidgetText.jsx'
 import WidgetClock from './Widget/WidgetClock.jsx'
+import './WidgetContainer.scss'
 
 class WidgetContainer extends Component {
   render() {

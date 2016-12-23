@@ -1,0 +1,9 @@
+.WidgetContainer{
+  .WidgetContainerLeftTop, .WidgetContainerRightTop {
+    align-self: flex-start;
+  }
+
+  .WidgetContainerLeftBottom, .WidgetContainerRightBottom {
+    align-self: flex-end;
+  }
+}

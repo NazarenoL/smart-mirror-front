@@ -1,0 +1,29 @@
+#root {
+  height: 100%;
+
+  .App {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .container-middle {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+
+    .sidebar {
+      width: 20%;
+
+      &.sidebar-left{
+
+      }
+
+      &.sidebar-right{
+
+      }
+    }
+  }
+}
