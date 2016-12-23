@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Widget from './Widget.jsx'
 
 class WidgetClock extends Component {
   constructor(props) {
@@ -25,8 +26,10 @@ class WidgetClock extends Component {
 
   render() {
     return (
-      <div className="Widget WidgetClock">
-        {this.state.date.toLocaleTimeString()}
+      <div className="WidgetClock">
+        <Widget>
+          {this.state.date.toLocaleTimeString()}
+        </Widget>
       </div>
     )
   }

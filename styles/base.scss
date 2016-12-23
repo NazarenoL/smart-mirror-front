@@ -1,4 +1,16 @@
+@import 'partials/fonts';
+@import 'partials/variables';
+
 body{
-    background-color: #000;
-    color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: $font-family-text;
 }
+
+h1, h2, h3, h4, h5{
+    font-family: $font-family-headings;
+}
+
+

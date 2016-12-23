@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import WidgetClock from './WidgetClock.jsx'
-import WidgetText from './WidgetText.jsx'
+import './Widget.scss';
 
 class Widget extends Component {
   render() {
-
+    return (
+      <div className="Widget">
+        {this.props.children}
+      </div>
+    );
   }
 }
 
