@@ -27,7 +27,7 @@ class WidgetClock extends Component {
   render() {
     return (
       <div className="WidgetClock">
-        <Widget>
+        <Widget module="Clock" parameters={this.props.parameters}>
           {this.state.date.toLocaleTimeString()}
         </Widget>
       </div>

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Widget from './Widget.jsx'
-
+import './WidgetText.scss';
 
 class WidgetText extends Component {
   render() {
     return (
-      <div className="Widget WidgetText">
-        <Widget>
-          Test
+      <div>
+        <Widget module="Text" parameters={this.props.parameters}>
+          {this.props.parameters.text}
         </Widget>
       </div>
     )
