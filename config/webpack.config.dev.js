@@ -178,6 +178,12 @@ module.exports = {
       inject: true,
       template: paths.appHtml,
     }),
+    // Generates a `demo.html` similar to the previous one but with extra testing features.
+    new HtmlWebpackPlugin({
+      inject: true,
+      filename: "demo.html",
+      template: paths.appHtmlDemo,
+    }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'development') { ... }. See `./env.js`.
     new webpack.DefinePlugin(env),
