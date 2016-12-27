@@ -1,9 +1,20 @@
-.WidgetContainer{
-  .WidgetContainerLeftTop, .WidgetContainerRightTop {
+.WidgetArea{
+  /* Top and bottom area positionings using flexbox properties. */
+  &.WidgetAreaLeftTop, &.WidgetAreaRightTop {
     align-self: flex-start;
   }
-
-  .WidgetContainerLeftBottom, .WidgetContainerRightBottom {
+  &.WidgetAreaLeftBottom, &.WidgetAreaRightBottom {
     align-self: flex-end;
+  }
+
+  /** Default text alignments. */
+  &.WidgetAreaLeftTop, &.WidgetAreaLeftBottom{
+    text-align: left;
+  }
+  &.WidgetAreaRightTop, &.WidgetAreaRightBottom{
+    text-align: right;
+  }
+  &.WidgetAreaTop, &.WidgetAreaBottom{
+    text-align: center;
   }
 }

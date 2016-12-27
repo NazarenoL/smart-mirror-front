@@ -1,3 +1,11 @@
+@import '../../../styles/partials/variables';
+
 .Widget {
-    border: 1px solid red;
+    padding: $spacer;
+
+    &.font-size-xs {font-size: $font-size-base * .8;}
+    &.font-size-s {font-size: $font-size-base;}
+    &.font-size-m {font-size: $font-size-base * 1.5;}
+    &.font-size-l {font-size: $font-size-base * 3;}
+    &.font-size-xl {font-size: $font-size-base * 3;}
 }

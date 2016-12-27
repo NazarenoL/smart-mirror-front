@@ -1,2 +1,13 @@
-$font-family-headings: "Raleway";
-$font-family-text: "PT Sans";
+$font-family-headings: "PT Sans";
+$font-family-text: "Raleway";
+
+$font-size-base: 12px;
+$font-size-xs: $font-size-base * .9;
+$font-size-s:  $font-size-base;
+$font-size-m:  $font-size-base * 1.2;
+$font-size-l:  $font-size-base * 1.5;
+$font-size-xl:  $font-size-base * 2;
+
+$font-weight-base: 300;
+
+$spacer: 30px;

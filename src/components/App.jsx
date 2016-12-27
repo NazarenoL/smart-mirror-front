@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <WidgetArea placement="top" widgets={this.props.widgets.Top} />
+        <WidgetArea placement="Top" widgets={this.props.widgets.Top} />
         <div className="container-middle">
           <div className="sidebar sidebar-left">
             <WidgetArea placement="LeftTop" widgets={this.props.widgets.LeftTop} />
