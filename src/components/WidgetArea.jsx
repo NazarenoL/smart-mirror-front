@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import WidgetText from './Widget/WidgetText.jsx'
-import WidgetClock from './Widget/WidgetClock.jsx'
+import WidgetText from './Widget/Text/WidgetText.jsx'
+import WidgetClock from './Widget/Clock/WidgetClock.jsx'
 import './WidgetArea.scss'
 
 class WidgetArea extends Component {
@@ -24,8 +24,10 @@ class WidgetArea extends Component {
         return WidgetClock;
       case 'Text':
         return WidgetText;
+      case 'Weather':
+        return WidgetWeather;
       default:
-        console.log(`Module of type ${moduleString} does not exist.`);
+        console.error(`Module of type ${moduleString} does not exist.`);
         break;
     }
   }

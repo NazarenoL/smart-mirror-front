@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Widget from './Widget.jsx'
-import './WidgetText.scss';
+import Widget from '../Widget.jsx';
 
 class WidgetText extends Component {
   render() {
