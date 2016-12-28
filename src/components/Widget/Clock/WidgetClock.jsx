@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Widget from '../Widget.jsx';
+import './WidgetClock.scss';
 
 class WidgetClock extends Component {
   constructor(props) {
