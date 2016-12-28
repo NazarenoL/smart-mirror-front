@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WidgetText from './Widget/Text/WidgetText.jsx'
 import WidgetClock from './Widget/Clock/WidgetClock.jsx'
+import WidgetWeather from './Widget/Weather/WidgetWeather.jsx'
 import './WidgetArea.scss'
 
 class WidgetArea extends Component {

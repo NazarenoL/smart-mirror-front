@@ -1,0 +1,27 @@
+@import '../../../../styles/partials/variables';
+
+.WidgetWeather {
+    @import './dripicons.scss';
+
+    .basic {
+        .temperature {
+            font-size: $font-size-xl;
+
+            .icon {
+                font-size: $font-size-m;
+            }
+        }
+
+        .icon {
+            font-size: $font-size-xl * 2;
+            margin-left: $font-size-xl * .5;
+        }
+    }
+
+    .rain-probability {
+        font-size: $font-size-m;
+        .icon {
+            margin-right: $font-size-m * .5;
+        }
+    }
+}
