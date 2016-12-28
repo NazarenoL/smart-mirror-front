@@ -19,7 +19,7 @@ class WidgetWeather extends Component {
           </p>
           <p className="rain-probability">
             <i className="icon icon-umbrella" />
-            <span className="percentage">30%</span>
+            <span className="percentage">{this.props.parameters.percentage}</span>
           </p>
         </Widget>
       </div>
