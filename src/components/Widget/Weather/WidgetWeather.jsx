@@ -15,7 +15,7 @@ class WidgetWeather extends Component {
             <i className={`icon icon-${this.props.parameters.iconClass}`} />
           </p>
           <p className="forecast">
-            Light rain tonight and tomorrow morning
+            {this.props.parameters.forecast}
           </p>
           <p className="rain-probability">
             <i className="icon icon-umbrella" />

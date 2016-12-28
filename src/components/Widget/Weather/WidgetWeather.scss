@@ -3,17 +3,24 @@
 .WidgetWeather {
     @import './dripicons.scss';
 
+    p {
+        margin: 0 0 $spacer * .5 0;
+        padding: 0;
+    }
+
     .basic {
         .temperature {
             font-size: $font-size-xl;
 
             .icon {
-                font-size: $font-size-m;
+                vertical-align: top;
+                font-size: $font-size-l;
+                margin-left: $font-size-l * .5;
             }
         }
 
         .icon {
-            font-size: $font-size-xl * 2;
+            font-size: $font-size-xl;
             margin-left: $font-size-xl * .5;
         }
     }
