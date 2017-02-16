@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import App from './App.jsx';
+import SmartMirrorApi from '../util/SmartMirrorApi.jsx';
 
 class AppContainer extends Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class AppContainer extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3003/widgets')
+    SmartMirrorApi.getWidgets()
       .then((response) => {
         return response.json()
       })
